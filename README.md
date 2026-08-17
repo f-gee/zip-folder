@@ -1,4 +1,4 @@
-# zip-folder-util
+# zip-folder
 
 Zips a project folder while skipping `node_modules`, `dist`, `.git` — at any
 depth (root or nested, e.g. `backend/node_modules`).
