@@ -1,0 +1,16 @@
+{
+  "name": "zip-folder",
+  "version": "1.0.0",
+  "description": "Zip a project folder while ignoring node_modules/dist/etc at any depth",
+  "main": "zip-folder.js",
+  "bin": {
+    "zip-folder": "./zip-folder.js"
+  },
+  "scripts": {
+    "zip": "node zip-folder.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^7.0.1"
+  }
+}
